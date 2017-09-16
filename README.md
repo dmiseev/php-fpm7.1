@@ -9,7 +9,7 @@
  > Composer installed globally
 
 ## Tags
- * z00m41k/php-fpm7.1:stable
+ * dmiseev/php-fpm7.1:stable
 
 ### Extensions:
 
@@ -38,3 +38,17 @@
 ### In addition
 
  * Composer (installed globally)
+ 
+### Docker Compose yml
+
+```yaml
+version: "2"
+services:
+ php-fpm:
+   image: dmiseev/php-fpm7.1
+   volumes:
+    - .:/usr/local/src/app
+   working_dir: /usr/local/src/app
+   extra_hosts:
+    - "app:127.0.0.1"
+```

@@ -8,7 +8,7 @@ FROM ubuntu:xenial
 
 MAINTAINER Aseev Dmitriy <dimaaseev.94@gmail.com>
 
-LABEL Vendor="z00m41k"
+LABEL Vendor="dmiseev"
 LABEL Description="PHP-FPM v7.1"
 LABEL Version="1.0.0"
 
@@ -78,6 +78,6 @@ RUN chmod +x /start.sh
 
 CMD ["/start.sh"]
 
-WORKDIR /var/www/z00m41k
+WORKDIR /var/www/dmiseev
 
 EXPOSE 9000
