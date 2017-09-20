@@ -55,6 +55,7 @@ RUN apt-get update -yqq \
     && apt-get install pkg-config \
     && pecl install mongodb \
     && echo "extension=mongodb.so" > /etc/php/7.1/cli/conf.d/ext-mongodb.ini \
+    && echo "extension=mongodb.so" > /etc/php/7.1/fpm/conf.d/ext-mongodb.ini \
     && apt-get install -y -q --no-install-recommends \
        ssmtp
 
