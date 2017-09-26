@@ -33,6 +33,7 @@
  * php7.1-redis
  * php7.1-memcached
  * php7.1-mongodb
+ * php7.1-bcmath
  * php7.1-imagick (`new`)
 
 ### In addition
