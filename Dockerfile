@@ -54,6 +54,7 @@ RUN apt-get update -yqq \
     php7.1-fpm \
     php7.1-bcmath \
     php7.1-zip \
+    php7.1-zmq \
     && apt-get install pkg-config \
     && pecl install mongodb \
     && echo "extension=mongodb.so" > /etc/php/7.1/cli/conf.d/ext-mongodb.ini \

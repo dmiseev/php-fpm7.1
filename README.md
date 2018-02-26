@@ -35,6 +35,8 @@
  * php7.1-mongodb
  * php7.1-bcmath
  * php7.1-imagick (`new`)
+ * php7.1-zip (`new`)
+ * php7.1-zmq (`new`)
 
 ### In addition
 
