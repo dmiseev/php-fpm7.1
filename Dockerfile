@@ -53,6 +53,7 @@ RUN apt-get update -yqq \
 	php7.1-dev \
     php7.1-fpm \
     php7.1-bcmath \
+    php7.1-imagick \
     php7.1-zip \
     php7.1-zmq \
     php7.1-apcu \
