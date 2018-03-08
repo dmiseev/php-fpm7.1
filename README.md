@@ -37,6 +37,7 @@
  * php7.1-imagick (`new`)
  * php7.1-zip (`new`)
  * php7.1-zmq (`new`)
+ * php7.1-apcu (`new`)
 
 ### In addition
 
