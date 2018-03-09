@@ -6,7 +6,7 @@
 
 FROM ubuntu:xenial
 
-MAINTAINER Aseev Dmitriy <dimaaseev.94@gmail.com>
+MAINTAINER Aseev Dmitriy <dmiseev@gmail.com>
 
 LABEL Vendor="dmiseev"
 LABEL Description="PHP-FPM v7.1"
@@ -25,6 +25,7 @@ RUN apt-get update -yqq \
     wget \
     mc \
     curl \
+    supervisor \
     sendmail
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade
