@@ -2,7 +2,7 @@
 
  **Helpful PHP-FPM image from official ubuntu:xenial**
  >
- > PHP-FPM version - 7.1.15
+ > PHP-FPM version - 7.1.20
 
  > DateTime - Europe/Kiev
 
