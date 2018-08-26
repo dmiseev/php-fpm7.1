@@ -4,9 +4,11 @@
  
  >
  > PHP-FPM version - 7.1.20
-
+ >
  > DateTime - Europe/Kiev
-
+ >
+ > Supervisor installed globally
+ >
  > Composer installed globally
 
 ## Tags
