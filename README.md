@@ -1,11 +1,14 @@
 ## PHP-FPM Image
 
  **Helpful PHP-FPM image from official ubuntu:xenial**
+ 
  >
  > PHP-FPM version - 7.1.20
-
+ >
  > DateTime - Europe/Kiev
-
+ >
+ > Supervisor installed globally
+ >
  > Composer installed globally
 
 ## Tags
@@ -41,6 +44,7 @@
 
 ### In addition
 
+ * Supervisor (installed globally)
  * Composer (installed globally)
  
 ### Docker Compose yml
